@@ -9,8 +9,8 @@ CFLAGS= -std=c++11 -fopenmp
 %.o: %.cpp
 	$(CC) -c -o $@ $< $(CFLAGS) $(DEBUGFLAGS)
 
-ALL: finalversion.o
-	$(CC) -o thefinalversion finalversion.o $(CFLAGS) $(DEBUGFLAGS)
+ALL: main.o
+	$(CC) -o twinprimes main.o $(CFLAGS) $(DEBUGFLAGS)
 
 DEBUG: DEBUGFLAGS = -DDEBUG
 DEBUG: ALL
