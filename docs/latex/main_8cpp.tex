@@ -5,7 +5,7 @@
 {\ttfamily \#include $<$set$>$}\newline
 {\ttfamily \#include $<$chrono$>$}\newline
 {\ttfamily \#include $<$omp.\+h$>$}\newline
-\doxysubsection*{Twin Primes using Multithreading}
+\doxysubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
 bool \mbox{\hyperlink{main_8cpp_a0f0d38e38549c02b27672fd35dd7465f}{is\+Prime}} (int number)
@@ -21,11 +21,11 @@ int \mbox{\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
 \doxysubsubsection{\texorpdfstring{isPrime()}{isPrime()}}
 {\footnotesize\ttfamily bool is\+Prime (\begin{DoxyParamCaption}\item[{int}]{number }\end{DoxyParamCaption})}
 
-determines if the int number is a prime or not
+Determines if the int number is a prime or not
 
 Function used to determine if a given number is a prime If a number is less than 2 it returns false as there is no prime numbers below 2 Any number above 2, it is looped over from 2 to number -\/ 1 to see if it divides evenly into any number by doing number mod(i). If for every int i it does not divide into the number evenly, then it is a prime. 
 
-Definition at line 34 of file main.\+cpp.
+Definition at line 25 of file main.\+cpp.
 
 \mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
 \index{main.cpp@{main.cpp}!main@{main}}
@@ -35,7 +35,7 @@ Definition at line 34 of file main.\+cpp.
 
 main driver of the program
 
-Where the majority of the program occurs. A vector of prime numbers and a set of twin primes are initilized to store the prime numbers, and a chrono high resolution clock is used to calculate the time it takes to execute the code. Before execution of the for loop, a pragma is used to signal to the compiler that open\+MP will be used and the memory will be shared among the number of threads declared earlier. Then inside the for loop, once the number is a for loop, a thread enters the critical section where a number is added to the vector of prime numbers. Then, if the number i+2 is a prime also, then i and i+2 is added to the set of twin primes. Once this has finished executing, the timer will stop and the duration will be recorded. The time is calculated by subtracting the start time from the end time. Finally, the contents of the vector and the set are printed on to the screen. $<$ an integer
+Where the majority of the program occurs. A vector of prime numbers and a set of twin primes are initilized to store the prime numbers, and a chrono high resolution clock is used to calculate the time it takes to execute the code. Before execution of the for loop, a pragma is used to signal to the compiler that open\+MP will be used and the memory will be shared among the number of threads declared earlier. Then inside the for loop, once the number is a for loop, a thread enters the critical section where a number is added to the vector of prime numbers. Then, if the number i+2 is a prime also, then i and i+2 is added to the set of twin primes. Once this has finished executing, the timer will stop and the duration will be recorded. The time is calculated by subtracting the start time from the end time. Finally, the contents of the vector and the set are printed on to the screen. 
 
-Definition at line 60 of file main.\+cpp.
+Definition at line 51 of file main.\+cpp.
 

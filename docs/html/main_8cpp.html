@@ -83,6 +83,8 @@ $(document).ready(function(){initNavTree('main_8cpp.html',''); initResizable(); 
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">main.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -95,8 +97,8 @@ $(document).ready(function(){initNavTree('main_8cpp.html',''); initResizable(); 
 </div>
 <p><a href="main_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
-Twin Primes using Multithreading</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
 <tr class="memitem:a0f0d38e38549c02b27672fd35dd7465f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a0f0d38e38549c02b27672fd35dd7465f">isPrime</a> (int number)</td></tr>
 <tr class="separator:a0f0d38e38549c02b27672fd35dd7465f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
@@ -118,10 +120,10 @@ Twin Primes using Multithreading</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>determines if the int number is a prime or not</p>
+<p>Determines if the int number is a prime or not</p>
 <p>Function used to determine if a given number is a prime If a number is less than 2 it returns false as there is no prime numbers below 2 Any number above 2, it is looped over from 2 to number - 1 to see if it divides evenly into any number by doing number mod(i). If for every int i it does not divide into the number evenly, then it is a prime. </p>
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00034">34</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00025">25</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -141,9 +143,8 @@ Twin Primes using Multithreading</h2></td></tr>
 </div><div class="memdoc">
 <p>main driver of the program</p>
 <p>Where the majority of the program occurs. A vector of prime numbers and a set of twin primes are initilized to store the prime numbers, and a chrono high resolution clock is used to calculate the time it takes to execute the code. Before execution of the for loop, a pragma is used to signal to the compiler that openMP will be used and the memory will be shared among the number of threads declared earlier. Then inside the for loop, once the number is a for loop, a thread enters the critical section where a number is added to the vector of prime numbers. Then, if the number i+2 is a prime also, then i and i+2 is added to the set of twin primes. Once this has finished executing, the timer will stop and the duration will be recorded. The time is calculated by subtracting the start time from the end time. Finally, the contents of the vector and the set are printed on to the screen. </p>
-<p>&lt; an integer</p>
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00060">60</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00051">51</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
 
 </div>
 </div>

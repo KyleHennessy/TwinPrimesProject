@@ -1,12 +1,3 @@
-/*! \mainpage Concurrency Prime Numbers Project
-    \author Kyle Hennessy
-    \date 26/02/2021
-    \copyright This project is covered by the GNU General Public Licence v3.0
-    \name Twin Primes using Multithreading
-
-*/
-
-///@file main.cpp
 #include <iostream>
 #include <vector>
 #include <set>
@@ -60,7 +51,7 @@ bool isPrime(int number)
 int main()
 {
 
-    int maxNumber; /*!< an integer */
+    int maxNumber;
     vector<int> primeNumbers; 
     set<int>twinPrimes;
 

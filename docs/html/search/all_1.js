@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['isprime_1',['isPrime',['../main_8cpp.html#a0f0d38e38549c02b27672fd35dd7465f',1,'main.cpp']]]
+  ['main_1',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cpp']]],
+  ['main_2ecpp_2',['main.cpp',['../main_8cpp.html',1,'']]]
 ];

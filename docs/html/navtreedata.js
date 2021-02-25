@@ -23,7 +23,13 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "Kyle Hennessy Concurrency Project", "index.html", [
-    [ "Concurrency Prime Numbers Project", "index.html", null ],
+    [ "Processing prime numbers using multi-threading", "index.html", [
+      [ "License", "index.html#autotoc_md0", null ],
+      [ "Author", "index.html#autotoc_md1", null ],
+      [ "Install", "index.html#autotoc_md2", null ],
+      [ "Usage", "index.html#autotoc_md3", null ],
+      [ "Libraries", "index.html#autotoc_md4", null ]
+    ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [

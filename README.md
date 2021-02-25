@@ -1,4 +1,4 @@
-## Processing prime numbers using multi-threading
+## Processing prime numbers using multi-threading  {#mainpage}
 
 A multithreaded program that gets the count of every prime number from 1 to n and prints out the twin primes
 
@@ -25,7 +25,12 @@ Kyle Hennessy
 
 Run the make file to generate the executable. After that, run it in terminal
 
+# Usage
+
+Enter a number that will be the max number you want to search up to.
+Press enter and relax as the program does the rest of the work
+
 # Libraries
 
--fopenmp
+OpenMP is a library for parallel programming that shares memory and data between threads. Included with -fopenmp in the MakeFile to compile.
 

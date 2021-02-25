@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['concurrency_20prime_20numbers_20project_0',['Concurrency Prime Numbers Project',['../index.html',1,'']]]
+  ['isprime_0',['isPrime',['../main_8cpp.html#a0f0d38e38549c02b27672fd35dd7465f',1,'main.cpp']]]
 ];
