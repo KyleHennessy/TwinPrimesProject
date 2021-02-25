@@ -10,7 +10,7 @@ CFLAGS= -std=c++11 -fopenmp
 	$(CC) -c -o $@ $< $(CFLAGS) $(DEBUGFLAGS)
 
 ALL: main.o
-	$(CC) -o twinprimes main.o $(CFLAGS) $(DEBUGFLAGS)
+	$(CC) -o twinPrimesKyleHennessy main.o $(CFLAGS) $(DEBUGFLAGS)
 
 DEBUG: DEBUGFLAGS = -DDEBUG
 DEBUG: ALL
